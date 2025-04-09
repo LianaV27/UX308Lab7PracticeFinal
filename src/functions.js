@@ -60,6 +60,11 @@ function yeeHa(number){
     return phrase;
 }
 
+function calculateSlope(rise, run){
+    const slope = rise / run;
+    return slope;
+}
 
 
-export {hello, fahrenheitToCelsius, calculateAcres, mowGrass, airQuality, yeeHa}
+
+export {hello, fahrenheitToCelsius, calculateAcres, mowGrass, airQuality, yeeHa, calculateSlope}

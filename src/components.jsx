@@ -1,4 +1,4 @@
-import { yeeHa, airQuality, mowGrass, calculateAcres, fahrenheitToCelsius, hello } from './functions.js';
+import { calculateSlope, yeeHa, airQuality, mowGrass, calculateAcres, fahrenheitToCelsius, hello } from './functions.js';
 
 function Question1() {
     return <section>
@@ -62,4 +62,14 @@ function Question5(){
     </section>
 }
 
-export { Question1, Question0, Question2, Question3, Question4, Question5}
+function Question6(){
+    return <section>
+        6. Slope is calculated as rise / run, where rise is distance between y coordinates, and run is distance between x coordinates.
+        <h2>results</h2>
+        <p>calculateSlope(5, 10)== "{calculateSlope(5,10)}"</p>
+        <p>calculateSlope(6, 3)== "{calculateSlope(6,3)}"</p>
+        <p>calculateSlope(24, 15)== "{calculateSlope(24,15)}"</p>
+    </section>
+}
+
+export { Question1, Question0, Question2, Question3, Question4, Question5, Question6}
