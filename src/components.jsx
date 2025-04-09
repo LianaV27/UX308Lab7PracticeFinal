@@ -1,4 +1,4 @@
-import { airQuality, mowGrass, calculateAcres, fahrenheitToCelsius, hello } from './functions.js';
+import { yeeHa, airQuality, mowGrass, calculateAcres, fahrenheitToCelsius, hello } from './functions.js';
 
 function Question1() {
     return <section>
@@ -43,7 +43,23 @@ function Question4() {
      4. Compute the air quality given an air quality index.
     <h2>results</h2>
     <p>airQuality(1)== "{airQuality(1)}"</p>
+    <p>airQuality(64)== "{airQuality(64)}"</p>
+    <p>airQuality(135)== "{airQuality(135)}"</p>
+    <p>airQuality(172)== "{airQuality(172)}"</p>
+    <p>airQuality(281)== "{airQuality(281)}"</p>
+    <p>airQuality(365)== "{airQuality(365)}"</p>
     </section>
 }
 
-export { Question1, Question0, Question2, Question3, Question4}
+function Question5(){
+    return <section>
+        5. Return a string based on a given parameter.
+        <h2>results</h2>
+        <p>yeeHa(3)== "{yeeHa(3)}"</p>
+        <p>yeeHa(7)== "{yeeHa(7)}"</p>
+        <p>yeeHa(21)== "{yeeHa(21)}"</p>
+        <p>yeeHa(1)== "{yeeHa(1)}"</p>
+    </section>
+}
+
+export { Question1, Question0, Question2, Question3, Question4, Question5}

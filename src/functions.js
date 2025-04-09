@@ -41,4 +41,25 @@ function airQuality(index){
     return quality;
 }
 
-export {hello, fahrenheitToCelsius, calculateAcres, mowGrass, airQuality}
+function yeeHa(number){
+    let phrase;
+
+    if (number % 21 == 0){
+        phrase = "Yee Ha";
+
+    } else if (number % 7 == 0){
+        phrase = "Ha";
+
+    } else if (number % 3 == 0){
+        phrase = "Yee";
+    
+    } else {
+        phrase = "Nada";
+    }
+
+    return phrase;
+}
+
+
+
+export {hello, fahrenheitToCelsius, calculateAcres, mowGrass, airQuality, yeeHa}
